@@ -1,0 +1,55 @@
+.boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.yearTime {
+    border: 5px solid whitesmoke;
+    border-style: inset;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 90px 90px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.yearTime p {
+    font-family: cursive;
+    font-size: 80px;
+}
+
+.monthTime {
+    border: 5px solid whitesmoke;
+    border-style: inset;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 90px 90px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.monthTime p {
+    font-family: cursive;
+    font-size: 80px;
+}
+
+.dayTime {
+    border: 5px solid whitesmoke;
+    border-style: inset;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 90px 90px;
+    margin-right: 45px;
+    margin-left: 45px;
+}
+
+.dayTime p {
+    font-family: cursive;
+    font-size: 80px;
+}
+
+#Date {
+    font-family: cursive;
+    font-size: 80px;
+}

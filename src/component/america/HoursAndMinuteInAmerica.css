@@ -1,0 +1,50 @@
+.boxs {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Time p {
+    border: 5px solid whitesmoke;
+    border-style: inset;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 40px 40px;
+    margin: 45px;
+    font-family: cursive;
+    font-size: 80px;
+    animation: fade 1s infinite;
+    animation-timing-function: ease-in;
+    background: linear-gradient(180deg, rgba(11,11,212,0.14889705882352944) 0%, rgba(0,212,255,0.15449929971988796) 100%);
+}
+
+.twoDot p {
+    border: 5px solid whitesmoke;
+    border-style: inset;
+    border-top-left-radius: 30%;
+    border-bottom-right-radius: 30%;
+    padding: 5px 35px 5px 35px;
+    margin: 45px;
+    font-family: cursive;
+    font-size: 40px;
+    animation: fade 1s infinite;
+    animation-timing-function: ease-in;
+    background: linear-gradient(180deg, rgba(11,11,212,0.14889705882352944) 0%, rgba(0,212,255,0.15449929971988796) 100%);
+}
+
+h2 {
+    font-family: cursive;
+    font-size: 80px;
+    color:red
+}
+
+@keyframes fade {
+    from{
+        color:rgba(35, 35, 39, 0.1);
+        background-color: rgba(255, 255, 255, 0.389);
+    }
+    to {
+        color:rgba(35, 35, 39, 0.9);
+        background-color: rgba(140, 140, 162, 0.726);
+    }
+}
